@@ -1,12 +1,10 @@
 from netbox.plugins import PluginMenuButton, PluginMenuItem
-from utilities.choices import ButtonColorChoices
 
 certchecker_buttons = [
     PluginMenuButton(
         link='plugins:netbox_certchecker:certificate_add',
         title='Add',
         icon_class='mdi mdi-plus-thick',
-        color=ButtonColorChoices.GREEN
     )
 ]
 
